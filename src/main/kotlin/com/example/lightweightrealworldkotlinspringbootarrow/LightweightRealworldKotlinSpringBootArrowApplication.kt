@@ -7,5 +7,6 @@ import org.springframework.boot.runApplication
 class LightweightRealworldKotlinSpringBootArrowApplication
 
 fun main(args: Array<String>) {
-	runApplication<LightweightRealworldKotlinSpringBootArrowApplication>(*args)
+    @Suppress("SpreadOperator")
+    runApplication<LightweightRealworldKotlinSpringBootArrowApplication>(*args)
 }

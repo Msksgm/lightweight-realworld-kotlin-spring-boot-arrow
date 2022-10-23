@@ -6,8 +6,9 @@ import org.springframework.boot.test.context.SpringBootTest
 @SpringBootTest
 class LightweightRealworldKotlinSpringBootArrowApplicationTests {
 
-	@Test
-	fun contextLoads() {
-	}
+    @Test
+    @Suppress("EmptyFunctionBlock")
+    fun contextLoads() {
+    }
 
 }
